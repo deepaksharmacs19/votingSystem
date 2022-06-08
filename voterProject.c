@@ -1,12 +1,13 @@
-// we have to make a program in which users can vote through the letter.
-// And to acheive this we have to make a linked list and in that linked list each and every node consist of a char type of data and an int type of data.
+//we have to make a program in which users can vote through the letter.
+//And to acheive this we have to make a linked list and in that linked list each node consist of a char type of data and an int type of data.
 //Initially the list is empty. Nodes are added to the list every time a respondent states their favorite letter.
 //whenever any user wants to vote to his favorite letter then the node's integer will get incremented with 1.
 //and if the list is empty then the integer part of node will be intialized from 1.
-// It is case insensitive
+//Votes can be case insensitive
 
-// Sam voted to a  that node will be constructed and that in that node the values are a and 1
-// Ashok voted to a then the node value a and 2.
+// Like
+// Sam voted to 'a'  that node will be constructed and that in that node the values are 'a' and 1
+// Ashok voted to 'a' then the node value 'a' and 2.
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -28,7 +29,7 @@ Node *t;
 if(val>97 || val<122) val-=32;
 
 if(val<65 || val>90) {
-printf("Invalid input");
+printf("Invalid Input\n");
 return;
 }
 
