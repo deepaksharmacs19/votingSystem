@@ -1,5 +1,5 @@
 //we have to make a program in which users can vote through the letter.
-//And to acheive this we have to make a linked list and in that linked list each node consist of a char type of data and an int type of data.
+//And to acheive this we have to make a linked list and in that linked list every node consist of a char type of data and an int type of data.
 //Initially the list is empty. Nodes are added to the list every time a respondent states their favorite letter.
 //whenever any user wants to vote to his favorite letter then the node's integer will get incremented with 1.
 //and if the list is empty then the integer part of node will be intialized from 1.
